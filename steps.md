@@ -23,5 +23,5 @@ Far comparire gli indirizzi email solamente quando sono stati tutti generati.
  - [x] **CICLO FOR** tante volte quante ne indica `listItems`.
     - [x] Fare una chiamata API con AXIOS.
     - [x] Pushare il risultato della chiamata in `emails`.
- - [ ] Rimuovere il markup HTML.
- - [ ] Display nel DOM con un V-FOR per ogni elemento di `emails`.
+ - [x] Rimuovere il markup HTML.
+ - [x] Display nel DOM con un V-FOR per ogni elemento di `emails`.
