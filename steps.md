@@ -19,9 +19,9 @@ Far comparire gli indirizzi email solamente quando sono stati tutti generati.
  <br>
 
  ## Fase svolgimento
- - [ ] Creare un method `createEmailList`.
- - [ ] **CICLO FOR** tante volte quante ne indica `listItems`.
-    - [ ] Fare una chiamata API con AXIOS.
-    - [ ] Pushare il risultato della chiamata in `emails`.
+ - [x] Creare un method `createEmailsList`.
+ - [x] **CICLO FOR** tante volte quante ne indica `listItems`.
+    - [x] Fare una chiamata API con AXIOS.
+    - [x] Pushare il risultato della chiamata in `emails`.
  - [ ] Rimuovere il markup HTML.
  - [ ] Display nel DOM con un V-FOR per ogni elemento di `emails`.
