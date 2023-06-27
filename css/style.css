@@ -6,7 +6,25 @@
 }
 
 /* * BODY */
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Main content */
 .box {
     margin: 0 auto;
     width: 400px;
+}
+
+/* * HEADER */
+header {
+    color: #6BA7E7;
+    height: 80px;
+    background-color: red;
+    vertical-align: middle;
+}
+
+header h3 {
+    text-align: center;
+    line-height: 80px;
 }
