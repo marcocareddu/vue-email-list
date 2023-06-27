@@ -12,7 +12,7 @@ const app = createApp({
     data() {
         return {
             emails: [],
-            listItems: 10,
+            listItems: null,
         }
     },
 
