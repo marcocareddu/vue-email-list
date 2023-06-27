@@ -39,10 +39,17 @@
     <div id="root">
         <div class="container">
             <div class="box mt-5">
+
+                <!-- Header -->
                 <header class="mb-3 bg-dark rounded-3">
                     <h3>Email creator della saggezza +2</h1>
                 </header>
 
+                <!-- Input section -->
+                <div class="input d-flex justify-content-between align-center">
+                    <input v-model="listItems" type="number" class="ms-2">
+                    <button @click="createEmailsList" class="btn btn-dark me-2">Carcola che</button>
+                </div>
                 <!-- Display if every item is loaded -->
                 <ul v-for="email in emails" class="list-group py-1" v-show="emails.length === listItems">
 
