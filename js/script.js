@@ -26,12 +26,6 @@ const app = createApp({
             }
         },
     },
-
-    // mounted() {
-
-    //     // Create emails array at loading page
-    //     this.createEmailsList()
-    // }
 });
 
 // mount
