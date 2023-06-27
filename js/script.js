@@ -20,17 +20,18 @@ const app = createApp({
 
         // Generate emails list from api boolean
         createEmailsList() {
+            this.emails = [];
             for (let i = 0; i < this.listItems; i++) {
                 axios.get(endpoint).then((res) => { this.emails.push(res.data.response); })
             }
         },
     },
 
-    mounted() {
+    // mounted() {
 
-        // Create emails array at loading page
-        this.createEmailsList()
-    }
+    //     // Create emails array at loading page
+    //     this.createEmailsList()
+    // }
 });
 
 // mount
