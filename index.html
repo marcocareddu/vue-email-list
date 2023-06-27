@@ -55,6 +55,7 @@
                     <input v-model="listItems" type="number" class="ms-2">
                     <button @click="createEmailsList" class="btn btn-dark me-2">Carcola che</button>
                 </div>
+
                 <!-- Display if every item is loaded -->
                 <ul v-for="email in emails" class="list-group pb-1" v-if="emails.length === listItems">
 
@@ -62,6 +63,7 @@
                     <li class="list-group-item">{{ email }}</li>
                 </ul>
 
+                <!-- Display spinning icon on loading -->
                 <div v-else class="d-flex justify-content-center align-center mt-5"><i
                         class="fa-solid fa-gear fa-spin fa-2xl"></i></div>
             </div>
