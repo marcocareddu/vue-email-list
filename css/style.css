@@ -28,3 +28,9 @@ header h3 {
     text-align: center;
     line-height: 80px;
 }
+
+/* Input */
+input {
+    text-align: center;
+    width: 100px;
+}
