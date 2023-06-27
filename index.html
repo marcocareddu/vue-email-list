@@ -35,7 +35,10 @@
         <div class="container">
             <div class="box mt-5">
 
-                <ul v-for="email in emails" class="list-group">
+                <!-- Display if every item is loaded -->
+                <ul v-for="email in emails" class="list-group" v-show="emails.length === listItems">
+
+                    <!-- List item injected here -->
                     <li class="list-group-item">{{ email }}</li>
                 </ul>
             </div>
