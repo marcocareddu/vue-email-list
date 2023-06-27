@@ -21,11 +21,7 @@ const app = createApp({
         // Generate emails list from api boolean
         createEmailsList() {
             for (let i = 0; i < this.listItems; i++) {
-                axios.get(endpoint)
-                    .then((res) => {
-                        const newEmail = res.data.response;
-                        this.emails.push(newEmail);
-                    })
+                axios.get(endpoint).then((res) => { this.emails.push(res.data.response); })
             }
         },
     },
