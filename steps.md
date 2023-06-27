@@ -13,8 +13,8 @@ Far comparire gli indirizzi email solamente quando sono stati tutti generati.
  - [x] Creare il markup HTML.
  - [x] Importare AXIOS.
  - [x] Importare API di Boolean con nome `endpoint`.
- - [ ] Creare un array vuoto chiamato `emails`.
- - [ ] Creare una variabile `listItems`.
+ - [x] Creare un array vuoto chiamato `emails`.
+ - [x] Creare una variabile `listItems`.
  
  <br>
 

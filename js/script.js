@@ -7,7 +7,8 @@ const { createApp } = Vue;
 const app = createApp({
     data() {
         return {
-
+            emails: [],
+            listItems: null,
         }
     }
 });
