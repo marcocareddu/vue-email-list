@@ -13,6 +13,7 @@ const app = createApp({
         return {
             emails: [],
             listItems: null,
+            isLoading: false,
         }
     },
 
@@ -20,10 +21,12 @@ const app = createApp({
 
         // Generate emails list from api boolean
         createEmailsList() {
+            this.isLoading = true;
             this.emails = [];
             for (let i = 0; i < this.listItems; i++) {
                 axios.get(endpoint).then((res) => { this.emails.push(res.data.response); })
             }
+            this.isLoading = false;
         },
     },
 });
